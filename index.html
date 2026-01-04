@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob's BBQ - Authentic Smoked Barbecue</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Bob's BBQ</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bob's BBQ</h1>
+            <p class="tagline">Slow Smoked. Fast Service. Unforgettable Flavor.</p>
+            <a href="#menu" class="btn btn-primary">View Our Menu</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <div class="feature-icon">🔥</div>
+                <h3>Slow Smoked</h3>
+                <p>Our meats are smoked low and slow for up to 14 hours for maximum flavor and tenderness.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🥩</div>
+                <h3>Premium Cuts</h3>
+                <p>We source only the finest quality meats from local farms and trusted suppliers.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🍖</div>
+                <h3>House-Made Sauces</h3>
+                <p>Our signature sauces are crafted in-house using Bob's secret family recipes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">All meats smoked fresh daily. Served with your choice of two sides.</p>
+
+            <div class="menu-grid">
+                <!-- Meats -->
+                <div class="menu-category">
+                    <h3>Smoked Meats</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Beef Brisket</span>
+                            <span class="item-price">$18.99</span>
+                        </div>
+                        <p class="item-description">Texas-style smoked brisket, sliced or chopped</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Pulled Pork</span>
+                            <span class="item-price">$14.99</span>
+                        </div>
+                        <p class="item-description">Slow-smoked pork shoulder, hand-pulled</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">St. Louis Ribs</span>
+                            <span class="item-price">$19.99</span>
+                        </div>
+                        <p class="item-description">Half rack of our award-winning spare ribs</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Smoked Chicken</span>
+                            <span class="item-price">$13.99</span>
+                        </div>
+                        <p class="item-description">Half chicken, seasoned and smoked to perfection</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Hot Links</span>
+                            <span class="item-price">$12.99</span>
+                        </div>
+                        <p class="item-description">Two house-made smoked sausage links</p>
+                    </div>
+                </div>
+
+                <!-- Sides -->
+                <div class="menu-category">
+                    <h3>Sides</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Mac & Cheese</span>
+                            <span class="item-price">$4.99</span>
+                        </div>
+                        <p class="item-description">Creamy, cheesy, homestyle goodness</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Coleslaw</span>
+                            <span class="item-price">$3.99</span>
+                        </div>
+                        <p class="item-description">Crisp and tangy, made fresh daily</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Baked Beans</span>
+                            <span class="item-price">$4.99</span>
+                        </div>
+                        <p class="item-description">Sweet and smoky with burnt ends</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Cornbread</span>
+                            <span class="item-price">$2.99</span>
+                        </div>
+                        <p class="item-description">Sweet honey butter cornbread</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Collard Greens</span>
+                            <span class="item-price">$4.99</span>
+                        </div>
+                        <p class="item-description">Southern-style with smoked ham hocks</p>
+                    </div>
+                </div>
+
+                <!-- Combos -->
+                <div class="menu-category">
+                    <h3>Combo Platters</h3>
+                    <div class="menu-item featured">
+                        <div class="menu-item-header">
+                            <span class="item-name">The Bob Special</span>
+                            <span class="item-price">$24.99</span>
+                        </div>
+                        <p class="item-description">Brisket, pulled pork, and a rib. Bob's favorite!</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Two Meat Combo</span>
+                            <span class="item-price">$21.99</span>
+                        </div>
+                        <p class="item-description">Choose any two smoked meats</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <span class="item-name">Family Pack</span>
+                            <span class="item-price">$69.99</span>
+                        </div>
+                        <p class="item-description">1lb each of brisket, pulled pork, ribs + 4 sides</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Bob's BBQ started in 1985 when Bob Thompson decided to turn his backyard passion into a full-time pursuit. What began as weekend cookouts for friends and family has grown into a beloved local institution.</p>
+                    <p>For nearly 40 years, we've been serving authentic, slow-smoked barbecue made the old-fashioned way. We wake up before dawn to tend our smokers, using only seasoned oak and hickory wood to create that perfect smoke ring and bark.</p>
+                    <p>Every sauce, rub, and side dish is made from scratch using recipes passed down through three generations of the Thompson family. We believe great BBQ can't be rushed, and neither can we.</p>
+                    <div class="about-signature">
+                        <p>- Bob Thompson, Pitmaster</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>🍖</span>
+                        <p>Smoking Since 1985</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Folks Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p class="testimonial-text">"Best brisket I've ever had, and I've been to Texas! The bark is perfect and it melts in your mouth."</p>
+                    <p class="testimonial-author">- Mike R.</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"We drive 45 minutes just for Bob's ribs. Worth every mile. The mac and cheese is incredible too!"</p>
+                    <p class="testimonial-author">- Sarah T.</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Been coming here for 20 years. Bob's never let me down. This is real BBQ done right."</p>
+                    <p class="testimonial-author">- James L.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>123 Smokehouse Lane<br>Riverside, TX 75001</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Hours</h3>
+                        <p>Tuesday - Sunday: 11am - 8pm<br>Monday: Closed</p>
+                        <p class="note">*We close early when we sell out!</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Contact</h3>
+                        <p>Phone: (555) 123-4567<br>Email: info@bobsbbq.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Bob's BBQ</h3>
+                    <p>Slow Smoked Since 1985</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <p>Follow Us</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">FB</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bob's BBQ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
